@@ -20,7 +20,7 @@ window.onload = function () {
         user_login.innerHTML =
             `
         <center class="font-sans text-md font-bold mt-20">
-        <h1 class="text-2xl mb-4">Kamu Berhasil Login <span class="animate-pulse">👋🏻</span></h1><br>
+        <h1 class="text-2xl mb-4">User Login Details <span class="animate-pulse">👋🏻</span></h1><br>
         <span class="hover:shadow-inner bg-slate-200 text-yellow-700 text-md font-mono px-1 shadow-lg py-0.5 rounded-md inline-block mb-3">Username : <span class="text-green-700">${valid_name}</span></span><br>
         <span class="hover:shadow-inner bg-slate-200 text-yellow-700 text-md font-mono px-1 shadow-lg py-0.5 rounded-md inline-block mb-3">Email : <span class="text-green-700">${valid_email}</span></span><br>
         <span class="hover:shadow-inner bg-slate-200 text-yellow-700 text-md font-mono px-1 shadow-lg py-0.5 rounded-md inline-block mb-3">Sandi : <span class="text-green-700">${valid_sandi}</span></span><br>
